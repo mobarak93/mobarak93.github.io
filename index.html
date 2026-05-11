@@ -1,118 +1,146 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Md. Hosne Mobarak | Portfolio</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f4f4f9;
-      color: #333;
-    }
-    header {
-      background: #0d6efd;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    header h1 { margin: 0; }
-    nav a {
-      margin: 0 10px;
-      color: white;
-      text-decoration: none;
-    }
-    section {
-      max-width: 900px;
-      margin: auto;
-      padding: 40px 20px;
-    }
-    h2 {
-      color: #0d6efd;
-    }
-    .card {
-      background: white;
-      padding: 20px;
-      margin: 15px 0;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    footer {
-      background: #222;
-      color: #ccc;
-      text-align: center;
-      padding: 20px;
-    }
-      .badge { display: inline-block; padding: 6px 10px; border-radius: 20px; font-size: 0.9rem; text-decoration: none; }
-    .orcid { background: #A6CE39; color: #fff; font-weight: 600; }
-  </style>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Md. Hosne Mobarak",
-    "url": "https://hosnemobarak.github.io",
-    "sameAs": [
-      "https://orcid.org/0000-0000-0000-0000",
-      "https://github.com/hosnemobarak",
-      "https://www.linkedin.com/in/hosnemobarak"
-    ]
-  }
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Hosne Mobarak | Professional Portfolio</title>
+    <style>
+        :root {
+            --primary-color: #0d6efd;
+            --secondary-color: #343a40;
+            --text-color: #333;
+            --bg-color: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+        }
+
+        header {
+            background: var(--secondary-color);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid var(--primary-color);
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+
+        header h1 { margin: 0; font-size: 2.5rem; }
+        header p { font-size: 1.2rem; color: #adb5bd; }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+            color: var(--secondary-color);
+        }
+
+        .skills-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .tag {
+            background: #e9ecef;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .research-item {
+            border-left: 4px solid var(--primary-color);
+            padding-left: 15px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: #6c757d;
+        }
+
+        a { color: var(--primary-color); text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
+    </style>
 </head>
 <body>
-  <header>
+
+<header>
     <h1>Md. Hosne Mobarak</h1>
-    <p>Aspiring Cybersecurity Specialist | IoT Security Enthusiast</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#certs">Certifications</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>  <section id="about">
-    <h2>About Me</h2>
-    <div class="card">
-      <p>I am a recent Computer Science & Engineering graduate passionate about Cybersecurity, IoT Security, and Machine Learning. I aim to pursue higher studies in Europe and build my own cybersecurity company in the future.</p>
-    </div>
-  </section>  <section id="skills">
-    <h2>Skills</h2>
-    <div class="card">
-      <ul>
-        <li>Programming: Python, C, JavaScript</li>
-        <li>Cybersecurity: Network Security, Ethical Hacking (CEH in progress)</li>
-        <li>Tools: Wireshark, Nmap, Kali Linux</li>
-      </ul>
-    </div>
-  </section>  <section id="projects">
-    <h2>Projects</h2>
-    <div class="card">
-      <h3>IoT Security using Machine Learning</h3>
-      <p>Thesis on detecting vulnerabilities and proposing ML-based defense strategies for IoT devices.</p>
-    </div>
-    <div class="card">
-      <h3>Student Management System</h3>
-      <p>Developed a web-based system to manage students’ courses, attendance, and results.</p>
-    </div>
-  </section>  <section id="certs">
-    <h2>Certifications</h2>
-    <div class="card">
-      <ul>
-        <li>CompTIA Security+ (Ongoing)</li>
-        <li>Future: CEH (Certified Ethical Hacker)</li>
-      </ul>
-    </div>
-  </section>  <section id="contact">
-    <h2>Contact</h2>
-    <div class="card">
-      <p>Email: <a href="mailto:hosnemobarak@example.com">hosnemobarak@example.com</a></p>
-      <p>ORCID iD: <a class="badge orcid" href="https://orcid.org/0000-0000-0000-0000" rel="me noopener" target="_blank">0000-0000-0000-0000</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/hosnemobarak" target="_blank">linkedin.com/in/hosnemobarak</a></p>
-      <p>GitHub: <a href="https://github.com/hosnemobarak" target="_blank">github.com/hosnemobarak</a></p>
-    </div>
-  </section>  <footer>
-    <p>&copy; 2025 Md. Hosne Mobarak. All Rights Reserved.</p>
-  </footer>
+    <p>Cybersecurity Specialist | Cloud Security | Network Engineer</p>
+</header>
+
+<div class="container">
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a Computer Science and Engineering graduate specialized in <strong>Cybersecurity and Cloud Security (AWS/Azure)</strong>. Currently, I am advancing my expertise in Network Engineering and preparing for the CCNA 200-301 certification. My passion lies in securing IoT environments and leveraging AI for intrusion detection.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-tags">
+            <span class="tag">Network Hardening (CCNA)</span>
+            <span class="tag">AWS Cloud Security</span>
+            <span class="tag">Azure Infrastructure</span>
+            <span class="tag">Machine Learning</span>
+            <span class="tag">Computer Vision</span>
+            <span class="tag">IoT Security</span>
+            <span class="tag">Python</span>
+        </div>
+    </section>
+
+    <section id="research">
+        <h2>Research & Projects</h2>
+        <div class="research-item">
+            <strong>Advanced Deep Learning for Neuromuscular Disease Diagnosis</strong>
+            <p>Developing automated systems for disease detection using Deep Learning techniques.</p>
+        </div>
+        <div class="research-item">
+            <strong>AI-driven Intrusion Detection for IoT</strong>
+            <p>Focused on lightweight encryption and security protocols for smart devices.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>📍 Based in Dhaka, Bangladesh</p>
+        <p>📧 Email: <a href="mdmubarokm2@gmail.com">Send Email</a></p>
+        <p>🔗 LinkedIn: <a href="https://linkedin.com/in/your-username" target="_blank">View Profile</a></p>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Md. Hosne Mobarak. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
